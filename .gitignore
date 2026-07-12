@@ -1,0 +1,26 @@
+# Claude Code / AI assistant local config (never commit)
+.claude/
+CLAUDE.md
+
+# Python (rpi/)
+rpi/venv/
+rpi/__pycache__/
+rpi/**/__pycache__/
+rpi/*.db
+rpi/*.log
+rpi/.env
+rpi/logs/images/*.jpg
+rpi/logs/images/*.png
+!rpi/logs/images/.gitkeep
+rpi/models/*.tflite
+!rpi/models/.gitkeep
+
+# PlatformIO (firmware/)
+firmware/.pio/
+firmware/.vscode/.browse.c_cpp.db*
+firmware/.vscode/c_cpp_properties.json
+firmware/.vscode/launch.json
+firmware/.vscode/ipch
+firmware/include/secrets.h
+
+.DS_Store
