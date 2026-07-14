@@ -86,6 +86,7 @@ def compute(detection_class: str, confidence: float) -> dict:
     """
     Run one fusion cycle.
     Returns full result dict — becomes /api/live and is saved to SQLite.
+    Field-by-field documentation lives in schema.py's CycleResult model.
 
     To swap in real AI: just change how (detection_class, confidence) are
     produced upstream in main.py. This function never needs to change.
